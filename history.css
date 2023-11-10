@@ -1,0 +1,59 @@
+body {
+  display: flex;
+  justify-content: center;
+  
+  flex-wrap: wrap;
+  
+  background: linear-gradient(to top, rgba(20, 95, 130, 0.9)50%,rgba(47, 172, 124, 0.812)50%), url(peakpx.jpg);
+}
+.card {
+    width: 300px;
+    height: 200px;
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px #999;
+    position: relative;
+    margin: 10px;
+    text-align: center;
+    margin-right: 100px;
+    position: relative;
+  }
+  .card .read-more {
+    background-color: blue;
+    color: rgba(227, 221, 221, 0.925);
+    padding: 10px 20px;
+    border-radius: 5px;
+    box-shadow: #FFF;
+    cursor: pointer;
+    text-decoration: none;
+    
+    
+  }
+  .card .read-more:hover
+   {
+    background-color: rgba(14, 13, 13, 0.959);  /* Change color on click */
+  }
+  .read-more{
+    color: #000;
+  }
+  .card-header {
+    padding: 20px;
+  }
+  
+  .title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .date {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .number {
+    font-size: 18px;
+    color: #333;
+  }
+  
